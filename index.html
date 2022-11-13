@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <p id="logo">Sorting Visualizer</p>
+        <div class="slider-container">
+            <input type="range" min="10" max="100" value="10" id="size-slider">
+            <p id="size">10</p>
+        </div>
+        <div class="slider-container2">
+            <input type="range" min="0" max="100" value="20" id="speed-slider">
+            <p id="speed">20</p>
+        </div>
+        <div class="buttons">
+            <button onClick="init()">Initialize</button>
+            <button onClick="play()">Bubble</button>
+            <button onClick="play1()">Insertion</button>
+            <button onClick="play2()">Selection</button>
+            <button onClick="play3()">Merge</button>
+            <button onClick="play4()">Cocktail</button>
+            <button onClick="play5()">Heap</button>
+            <button onClick="play6()">Quick</button>
+            <button onClick="end()">End</button>
+        </div>
+    </div>
+    
+    <div id="barcontainer"></div>
+    <script src="script.js"></script>
+</body>
+</html>
